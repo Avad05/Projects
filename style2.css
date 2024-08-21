@@ -129,3 +129,40 @@ p{
  font-weight: bolder;
  font-size: larger;
 }
+.fourth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.container{
+    background-color: #3882f6;
+    height: 125px;
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    gap: 50px;
+
+}
+.inside{
+    display: flex;
+    flex-direction: column;
+    color: #e5e7eb;
+
+}
+.inside .new{
+    font-size: 18px;
+}
+.inside .item{
+    font-size: 30px;
+}
+.container .button{
+    border: 2px solid #e5e7eb;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    width: 100px;
+}
